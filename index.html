@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoaLab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--reset css-->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"><!--font chữ-->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+
+</head>
+<body cz-shortcut-listen="true">
+    <header class="header">       
+        <div class="header-topbar hide-on-mb">
+            <div class="grid wide header-topbar-container">
+                <div class="header-topbar__contact">
+                    <ul>
+                        <li class="phone">
+                            <a href="tel:0367085306" target="_blank">
+                                <i class="fa-solid fa-phone"></i> 0367085306                           
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/hoalab.beautyclinic" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/hoalab.beautyclinic/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://shopee.vn/hoalab.shop" target="_blank">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-topbar__login">
+                    <ul>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><div class="header-nav">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="header-nav-container">
+                        <div class="col l-3 m-6 c-6">
+                            <a href=" #" class="header-nav__logo">
+                                <h1>HOA LAB</h1>
+                                <p>Beauty Clinic</p>
+                            </a>
+                        </div>
+                        <div class="col l-6 m-0 c-0">
+                            <div class="header-nav__list">
+                                <ul>
+                                    <li class="header-nav__item header-nav__item--active"><a href="#">Home</a></li>
+                                    <li class="header-nav__item"><a href="#">Our Story</a></li>
+                                    <li class="header-nav__item"><a href="#">Service</a></li>
+                                    <li class="header-nav__item"><a href="#">Contact</a></li>
+                                    <li class="header-nav__item"><a href="#">More</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="header-nav__control-mb">
+                                <div class="header-nav__search ">
+                                    <i class="header-nav__search-icon fas fa-search"></i>
+                                    <input type="text" class="header-nav__search-input" placeholder="Search...">
+                                </div>
+                                <label for="header-mb-bars__checkbox" class="header-mb-bars__label hide-on-pc-tb">
+                                    <i class="list-tablet-mobile fas fa-bars"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-- header mb bars -->
+        <div class="header-mb-bar__container">
+            <input type="checkbox" id="header-mb-bars__checkbox" class="header-mb-bar__input" hidden="">
+            <div class="header-mb-bar__content">
+                <!-- <label for="header-mb-bars__checkbox" class="header-mb-bars__close">X</label>
+                <div class="header-mb-bar__list">
+                    <a href="" class="header-mb-bar__link">Home</a>
+                    <a href="" class="header-mb-bar__link">About</a>
+                    <a href="" class="header-mb-bar__link">New</a>
+                    <a href="" class="header-mb-bar__link">Otters</a>
+                    <a href="" class="header-mb-bar__link">Contact</a>
+                </div> -->
+            </div>
+            <label for="header-mb-bars__checkbox" class="header-mb-bar__overlay"></label>
+        </div>
+    </header>
+    <div class="container">
+        <section class="tour">
+            <div class="grid wide">
+                <div class="tour-content">
+                    <h2 class="section-title">𝒂𝒗𝒐𝒊𝒓 𝒍𝒂 𝒎𝒂𝒊𝒏 𝒗𝒆𝒓𝒕𝒆</h2>
+                    <p class="tour-text">“Mát tay” – không phải vô duyên vô cớ mà Hoa Lab vơ về cho mình. Đó là hai từ mà Hoa Lab được nghe nhiều nhất khi khách hàng nói về spa của mình. Các ấy tâm sự đã đi spa nhiều, lớn có nhỏ có, nhưng nặn mụn ít sưng và thực sự là chữa lành làn da thì chỉ có ở HOA LAB. </p>
+                </div>
+                <div class="tour-list">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div style="background-image: url('./assets/img/our_story.jpeg');" class="tour-item">
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div style="background-image: url('./assets/img/our_story.jpeg');" class="tour-item">
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div style="background-image: url('./assets/img/our_story.jpeg');" class="tour-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="package">
+            <div class="grid wide">
+                <div class="package-container">
+                    <div class="package-content">
+                        <h4 class="section-title">SERVICES AT HOA LAB</h4>
+                        <div class="package-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p class="package-desc">Luôn thử nghiệm khắt khe các liệu trình và mỹ phẩm trước khi đưa vào ứng dụng</p>
+                    </div>
+
+                    <div class="service-list">
+                        <div class="row">
+                            <div class="col c-4 m-4 l-4 ">
+                                <div class="service-item">
+                                    <div class="service-name">
+                                        Chữa lành da 
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            Điều trị mụn
+                                        </li>
+                                        <li>
+                                            Điều trị sẹo
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>  
+                            <div class="col c-4 m-4 l-4 ">
+                                <div class="service-item">
+                                    <div class="service-name">
+                                        Nâng cấp da
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            Điều trị thâm và sắc tố
+                                        </li>
+                                        <li>
+                                            Trẻ hóa da toàn diện
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div> 
+                            <div class="col c-4 m-4 l-4 ">
+                                <div class="service-item">
+                                    <div class="service-name">
+                                        Khác
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            Tô điểm mày-môi-mí
+                                        </li>
+                                        <li>
+                                            Triệt lông
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="btn-wrap btn-wrap--service">
+                        <a href="" class="btn">Book now...</a>
+                        <div class="btn-bg"></div>
+                    </div>
+                </div>
+            </div>
+                
+            
+        </section>
+        <section class="offers">
+            <div class="grid wide">
+                <h4 class="section-title">THE BEST OFFERS WITH SERVICES</h4>
+                <div class="offers-content">
+                    <div class="row">
+                        <div class="col l-6 c-12">
+                            <div class="offers-item__wrap">
+                                <div class="offers-item__bg" style="background-image: url('./assets/img/service_mun_plus.jpeg');">
+                                    <a href="" class="offers-item__name">Mụn cấp tốc</a>
+                                </div>
+                                <div class="offers-item__container">
+                                    <div class="offers-item__content">
+                                        <h4 class="offers-item__price">280k <span>/Lần</span></h4>
+                                        <div class="offers-item__rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="offers-item__desc">
+                                            <ul>
+                                                <li class="offers-item__desc-list">Xác định rõ nguyên nhân gây mụn.</li>
+                                                <li class="offers-item__desc-list">Điều trị kết hợp phục hồi.</li>
+                                                <li class="offers-item__desc-list">Phác đồ và sản phẩm cá nhân hoá theo tình trạng từng khách hàng.</li>
+                                                <li class="offers-item__desc-list">Hướng dẫn chế độ chăm sóc và bảo vệ da tại nhà.</li>
+                                            </ul>
+                                        </p>
+                                        <div class="offers-item__action">
+                                            <img src="./assets/images/ofi1.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi2.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi3.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi4.webp" alt="" class="offers-item__action-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offers-item__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 c-12">
+                            <div class="offers-item__wrap">
+                                <div class="offers-item__bg" style="background-image: url('./assets/img/service_mun_plus.jpeg');">
+                                    <a href="" class="offers-item__name">Mụn cấp tốc</a>
+                                </div>
+                                <div class="offers-item__container">
+                                    <div class="offers-item__content">
+                                        <h4 class="offers-item__price">280k <span>/Lần</span></h4>
+                                        <div class="offers-item__rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="offers-item__desc">
+                                            <ul>
+                                                <li class="offers-item__desc-list">Xác định rõ nguyên nhân gây mụn.</li>
+                                                <li class="offers-item__desc-list">Điều trị kết hợp phục hồi.</li>
+                                                <li class="offers-item__desc-list">Phác đồ và sản phẩm cá nhân hoá theo tình trạng từng khách hàng.</li>
+                                                <li class="offers-item__desc-list">Hướng dẫn chế độ chăm sóc và bảo vệ da tại nhà.</li>
+                                            </ul>
+                                        </p>
+                                        <div class="offers-item__action">
+                                            <img src="./assets/images/ofi1.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi2.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi3.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi4.webp" alt="" class="offers-item__action-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offers-item__link">Read more</a>
+                                </div>
+                            </div>
+                        </div><div class="col l-6 c-12">
+                            <div class="offers-item__wrap">
+                                <div class="offers-item__bg" style="background-image: url('./assets/img/service_mun_plus.jpeg');">
+                                    <a href="" class="offers-item__name">Mụn cấp tốc</a>
+                                </div>
+                                <div class="offers-item__container">
+                                    <div class="offers-item__content">
+                                        <h4 class="offers-item__price">280k <span>/Lần</span></h4>
+                                        <div class="offers-item__rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="offers-item__desc">
+                                            <ul>
+                                                <li class="offers-item__desc-list">Xác định rõ nguyên nhân gây mụn.</li>
+                                                <li class="offers-item__desc-list">Điều trị kết hợp phục hồi.</li>
+                                                <li class="offers-item__desc-list">Phác đồ và sản phẩm cá nhân hoá theo tình trạng từng khách hàng.</li>
+                                                <li class="offers-item__desc-list">Hướng dẫn chế độ chăm sóc và bảo vệ da tại nhà.</li>
+                                            </ul>
+                                        </p>
+                                        <div class="offers-item__action">
+                                            <img src="./assets/images/ofi1.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi2.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi3.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi4.webp" alt="" class="offers-item__action-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offers-item__link">Read more</a>
+                                </div>
+                            </div>
+                        </div><div class="col l-6 c-12">
+                            <div class="offers-item__wrap">
+                                <div class="offers-item__bg" style="background-image: url('./assets/img/service_mun_plus.jpeg');">
+                                    <a href="" class="offers-item__name">Mụn cấp tốc</a>
+                                </div>
+                                <div class="offers-item__container">
+                                    <div class="offers-item__content">
+                                        <h4 class="offers-item__price">280k <span>/Lần</span></h4>
+                                        <div class="offers-item__rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="offers-item__desc">
+                                            <ul>
+                                                <li class="offers-item__desc-list">Xác định rõ nguyên nhân gây mụn.</li>
+                                                <li class="offers-item__desc-list">Điều trị kết hợp phục hồi.</li>
+                                                <li class="offers-item__desc-list">Phác đồ và sản phẩm cá nhân hoá theo tình trạng từng khách hàng.</li>
+                                                <li class="offers-item__desc-list">Hướng dẫn chế độ chăm sóc và bảo vệ da tại nhà.</li>
+                                            </ul>
+                                        </p>
+                                        <div class="offers-item__action">
+                                            <img src="./assets/images/ofi1.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi2.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi3.webp" alt="" class="offers-item__action-img">
+                                            <img src="./assets/images/ofi4.webp" alt="" class="offers-item__action-img">
+                                        </div>
+                                    </div>
+                                    <a href="" class="offers-item__link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="grid wide about-container">
+                <h4 class="section-title">WHAT OUR CLIENTS SAY ABOUT US</h4>
+                <div class="about-content">
+                    <div class="row">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="about-item" style="background-image: url(./assets/img/taylor-swift-5-1648652602426.webp);">
+                                <div class="about-item__icon">
+                                    <!-- <img class="about-item__icon-img" src="./assets/images/abi1.webp" alt=""> -->
+                                    <i class="about-item__icon-img fa-solid fa-face-grin-hearts"></i>
+                                </div>
+                                <div class="about-item__content">
+                                    <div class="about-item__header">
+                                        <h6 class="about-item__name">Taylor Swift</h6>
+                                        <p class="about-item__date">May 24, 2020</p>
+                                    </div>
+                                    <div class="about-item__body">
+                                        <span>"Trải nghiệm tuyệt vời"</span>
+                                        <p>...Nặn về không bị sưng hay gì hết,trước em đi mấy chỗ về xác định mấy ngày sau không dám đi đâu. Trộm vía bên mình nặn êm tay mà đẹp nữa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="about-item" style="background-image: url(./assets/img/taylor-swift-5-1648652602426.webp);">
+                                <div class="about-item__icon">
+                                    <!-- <img class="about-item__icon-img" src="./assets/images/abi1.webp" alt=""> -->
+                                    <i class="about-item__icon-img fa-solid fa-face-grin-hearts"></i>
+                                </div>
+                                <div class="about-item__content">
+                                    <div class="about-item__header">
+                                        <h6 class="about-item__name">Taylor Swift</h6>
+                                        <p class="about-item__date">May 24, 2020</p>
+                                    </div>
+                                    <div class="about-item__body">
+                                        <span>"Trải nghiệm tuyệt vời"</span>
+                                        <p>...Nặn về không bị sưng hay gì hết,trước em đi mấy chỗ về xác định mấy ngày sau không dám đi đâu. Trộm vía bên mình nặn êm tay mà đẹp nữa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><div class="col l-4 m-6 c-12">
+                            <div class="about-item" style="background-image: url(./assets/img/taylor-swift-5-1648652602426.webp);">
+                                <div class="about-item__icon">
+                                    <!-- <img class="about-item__icon-img" src="./assets/images/abi1.webp" alt=""> -->
+                                    <i class="about-item__icon-img fa-solid fa-face-grin-hearts"></i>
+                                </div>
+                                <div class="about-item__content">
+                                    <div class="about-item__header">
+                                        <h6 class="about-item__name">Taylor Swift</h6>
+                                        <p class="about-item__date">May 24, 2020</p>
+                                    </div>
+                                    <div class="about-item__body">
+                                        <span>"Trải nghiệm tuyệt vời"</span>
+                                        <p>...Nặn về không bị sưng hay gì hết,trước em đi mấy chỗ về xác định mấy ngày sau không dám đi đâu. Trộm vía bên mình nặn êm tay mà đẹp nữa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="grid wide">
+                <div class="row">         
+                     <div class="contact__container">
+                        <h4 class="contact__header">CONTACT</h4>
+                        <form action="" class="contact__form">
+                            <input type="text" class="contact__input contact__input1  " placeholder="Name">
+                            <input type="text" class="contact__input contact__input1" placeholder="Email">
+                            <input type="text" class="contact__input" placeholder="Subject">
+                            <textarea name="" class="contact__input" id="" cols="5" rows="10" placeholder="Message"></textarea>
+                            <button type="submit" class="btn contact__btn">Send Message...</button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer"> 
+        <div class="footer-copyright">
+            Copyright © 2022 - <a href="" class="footer-copyright__link">HOA lAB</a> | Powered by Hoa Lab Beauty Clinic
+        </div>
+        <div class="sub--footer">
+            <p>18A Phan Văn Trị, phường 10, quận Gò Vấp, TP.HCM</p>
+            <p>GCNĐKKD số 41M8043898 cấp ngày 12 tháng 03 năm 2021</p>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
