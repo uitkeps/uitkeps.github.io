@@ -85,7 +85,7 @@ ul {
 .header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(245, 149, 156, 0.4), rgba(245, 149, 156, 0.4)), url('https://scontent.fsgn13-4.fna.fbcdn.net/v/t1.6435-9/159935787_103035765201073_8109211877530644125_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=d90pKzz2C_4AX9tUT1F&tn=DvEEHawUtRX_Vs3j&_nc_ht=scontent.fsgn13-4.fna&oh=00_AT9PTyGAeN45C2W1iKxvOjc9LLK77LMuqwsXG2H2kUeiJw&oe=6307EC3E') top center / cover no-repeat;
+    background: linear-gradient(rgba(245, 149, 156, 0.4), rgba(245, 149, 156, 0.4)), url(../img/background-img.jpeg) top center / cover no-repeat;
 }
 
 .header-topbar {
